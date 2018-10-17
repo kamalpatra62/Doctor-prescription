@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.chrysaetos.myreports">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".mobileverification"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity
+            android:name=".receiveotp"
+            android:parentActivityName=".mobileverification" />
+        <activity
+            android:name=".addProfile"
+            android:parentActivityName=".MainActivity" />
+        <!-- <activity -->
+        <!-- android:name=".receiveotp" -->
+        <!-- android:parentActivityName=".mobileverification" /> -->
+        <!-- <activity android:name=".addProfile" /> -->
+        <activity
+            android:name=".editProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".add_report" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+
+        <activity
+            android:name=".showReports"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".showAllReportImage"
+            android:label="@string/title_activity_show_all_report_image"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".profileDelete"
+            android:label="@string/title_activity_profile_delete"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".addUser"
+            android:label="@string/title_activity_add_user"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

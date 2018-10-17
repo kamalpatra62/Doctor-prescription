@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyReports</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="enterphno">ENTER YOUR PHONE NUMBER</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">Keep your medical \n recorde Safe and Secure</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Get reminders to take \n your meds and track</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Get Location of Doctor</string>
+
+    <string name="slide_4_title">or</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_receive_otp">receiveOTP</string>
+    <string name="title_activity_receiveotp">receiveotp</string>
+    <string name="title_activity_add_profile">addProfile</string>
+    <string name="title_activity_edit_profile">Personal</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kamal">kamal</string>
+    <string name="title_activity_show_reports">showReports</string>
+    <string name="title_activity_show_all_report_image">showAllReportImage</string>
+    <string name="title_activity_profile_delete">profileDelete</string>
+    <string name="title_activity_add_user">addUser</string>
+</resources>

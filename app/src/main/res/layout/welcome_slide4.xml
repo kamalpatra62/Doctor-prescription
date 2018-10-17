@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgi">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/pbsign_in"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/googleg_standard_color_18"
+            android:padding="10dp"
+            android:text="Sign in"
+            android:onClick="UserSignInMethod"
+            android:textSize="14sp" />
+
+        <!--<com.google.android.gms.common.SignInButton-->
+            <!--android:id="@+id/sign_in_button"-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="OR"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_mobileNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:onClick="getPhnumber"
+            android:padding="8dp"
+            android:text="Enter Your mobile number"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold" />
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:paddingLeft="@dimen/desc_padding"-->
+        <!--android:paddingRight="@dimen/desc_padding"-->
+        <!--android:text="@string/slide_4_desc"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="@dimen/slide_desc" />-->
+
+    </LinearLayout>
+
+</RelativeLayout>
